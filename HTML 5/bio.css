@@ -1,0 +1,36 @@
+p {
+    font-family: Montserrat;
+    color: #655DBB;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: normal;
+    color: #3E54AC;
+    text-align: center;
+}
+body{
+    background-color: #ECF2FF;
+}
+h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #655DBB;
+    text-align: center;
+
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    color: #655DBB;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: #655DBB;
+}

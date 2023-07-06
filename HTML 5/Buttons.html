@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Buttons</title>
+</head>
+<body>
+
+    <a href="https://www.google.com" target=_blank>
+        <button style="background-color:aqua; color:blue; border-radius: 5px;">Click here</button>
+    </a>
+
+    <button onclick="doSomething()" style="background-color: #123456; color:aliceblue;border-radius: 5px;">Press After clicking</button>
+
+    <p id="test">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML="Thank  you for the click";
+        }
+    </script>
+</body>
+</html>

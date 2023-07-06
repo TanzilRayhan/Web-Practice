@@ -1,0 +1,23 @@
+*{
+    color: blue;
+}
+
+h1{
+    font-family: bebas, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+p{
+    font-size: 30px;
+    font-style: bold;
+    font-family: bebas;
+    color: burlywood;
+    text-align: right;
+    text-indent: 30px;
+    line-height: 120%;
+    text-shadow: 2px 2px 2px gold;
+}

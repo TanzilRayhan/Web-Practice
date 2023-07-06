@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color: white;
+}
+p{
+    background-color: lightblue;
+    color: darkblue;
+}
+#p1{
+    color:red;
+}
+#p2{
+    background-color: beige;
+}
+#p3{
+    background-color: bisque;
+    color: blue;
+}
+#p4{
+    background-color:blueviolet;
+    color:aquamarine;
+}
+.odd{
+    color:aliceblue;
+}

@@ -1,0 +1,34 @@
+/* 
+----- CSS Selectors -----
+
+universal >> * {}
+tag >> h1 {}
+class >> .classname {}
+id >> .idname {}
+attribute >> [href=" "]
+
+*/
+
+/* ----- Universal Selectors ----- */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ----- Tag Selectors ----- */
+h1 {
+    color: blue;
+}
+/* ----- Class Selectors ----- */
+.odd {
+    color: blueviolet;
+    text-transform: uppercase;
+}
+/* ----- ID Selectors ----- */
+#heading {
+    color: purple;
+}
+/* ----- Attribute Selectors ----- */
+[type="submit"] {
+    color: brown;
+    padding: 10px;
+}

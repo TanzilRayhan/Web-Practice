@@ -1,0 +1,16 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    color: darkblue;
+    font-family: "Raleway", "consolas","Times new roman";
+}
+p{
+    color: darkmagenta;
+    font-family: "consolas","Times new roman";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: blue dotted underline;
+    font-size: 18px;
+}
