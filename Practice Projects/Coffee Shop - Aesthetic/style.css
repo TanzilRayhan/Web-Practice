@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(Images/Coffeeshop-bg.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    padding-top: 200px;
+}
+.registration{
+    margin-left: 600px;
+    color: crimson;
+    align-items: center;
+    width: 180px;
+    padding:  100px;
+    font-family: 'montserrat';
+    font-size: larger;
+    background-color: azure;
+    background-blend-mode: overlay;
+}
+.caption{
+    text-align: left;
+}

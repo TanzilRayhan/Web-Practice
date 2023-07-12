@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.headerinfo{
+    background-color:aliceblue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#av{
+    height: 100px;
+    margin-left: 40px;
+
+}
+
+.point{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    font-weight: bold;
+    font-family: 'montserrat';
+    font-size:medium;
+}
+
+.list{
+    padding-right: 55px;
+    color:chocolate;
+    font-size: larger;
+    cursor: pointer;
+}
+#list1{
+    background-color: #fff;
+}
+.list:hover{
+    color:brown;
+}
+.intro{
+    display: flex;
+    margin: 100px 250px;
+}
+
+.cat{
+    border-style: solid;
+    border-color: orangered;
+    border-width: 10px;
+    border-radius: 50%;    
+    height: 300px;
+    width: 300px;
+    box-shadow: whitesmoke 0px 0px 10px 2px;
+}
+
+.description{
+    color:aliceblue;
+    justify-items: center;
+    margin: 50px 50px 50px;
+    font-family: 'montserrat', sans-serif;
+
+}
+h3{
+    color:aliceblue;
+    padding-bottom: 10px;
+}
+h1{
+    padding-bottom: 10px;
+    color: crimson;
+}
+.hi{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-family: 'montserrat';
+    font-weight:bold ;
+}
+.hi:hover{
+    color: crimson;
+    background-color: aliceblue;
+}
+.part2{
+    height: 300px;
+    width: 850px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: crimson;
+    justify-content: space-around;
+    margin-top: -100px;
+    margin-left: 250px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 10px;
+}
+.foot{
+    background-color: aliceblue;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 500px;
+    justify-items: center;
+    align-items: center;
+}
+.contact{
+    height: 600px;
+}
