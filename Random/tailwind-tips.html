@@ -113,6 +113,58 @@
         @apply hover:scale-105; // Interaction
       }
     </article>
-  
+    <!-- Avoid Creating Components in CSS Files -->
+    <article>
+      <!-- Incorrect -->
+      <div class="card">
+        <div class="card-title">Title</div>
+        <div class="card-body">Title</div>
+        <div class="card-footer">
+          <div class="card-timestamp">15/05/2025</div>
+      
+          <div class="card-actions">
+            <button>Edit</button>
+            <button>Delete</button>
+          </div>
+        </div>
+      </div>
+      <!-- css  -->
+      .card {
+        @apply rounded p-4;
+      }
+      
+      .card-title {
+        @apply text-lg;
+      }
+      
+      .card-body {
+        @apply mt-1;
+      }
+      
+      .card-footer {
+        @apply flex items-center justify-between;
+      }
+      
+      .card-timestamp {
+        @apply text-sm;
+      }
+      
+      .card-actions {
+        @apply flex gap-4;
+      }
+      <!-- correct -->
+      <div class="rounded p-4">
+        <div class="text-lg">Title</div>
+        <div class="mt-1">Title</div>
+        <div class="flex items-center justify-between">
+          <div class="text-sm">15/05/2025</div>
+      
+          <div class="flex gap-4">
+            <button>Edit</button>
+            <button>Delete</button>
+          </div>
+        </div>
+      </div>
+    </article>
 </body>
 </html>
