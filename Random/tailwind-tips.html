@@ -34,5 +34,22 @@
             <div>World</div>
         </div>
     </article>
+    <!-- Evenly Space Content with Flow Root -->
+    <article>
+        <!-- Incorrect -->
+        <ul class="space-y-8 divide-y">
+            <li>First</li>
+            <li class="pt-8">Second</li>
+            <li class="pt-8">Third</li>
+          </ul>
+        <!-- correct -->
+        <div class="flow-root">
+            <ul class="-my-8 divide-y">
+              <li class="py-8">First</li>
+              <li class="py-8">Second</li>
+              <li class="py-8">Third</li>
+            </ul>
+          </div>
+    </article>
 </body>
 </html>
