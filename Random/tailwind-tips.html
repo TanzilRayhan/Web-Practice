@@ -166,5 +166,36 @@
         </div>
       </div>
     </article>
+    <!-- Use Max Width Classes When Restricting Width -->
+    <article>
+      <!-- Incorrect -->
+      <div class="w-auto sm:w-64">
+        <div>Hello World</div>
+      </div>
+      <!-- correct -->
+      <div class="max-w-sm">
+        <div>Hello World</div>
+      </div>
+    </article>
+    <!-- Group Prefixed Class Names -->
+    <article>
+      <!-- Incorrect -->
+      <div class="\mt-4 lg:text-3xl\ text-lg sm:mt-0 sm:text-xl">Hello World</div>
+      <!-- correct -->
+      <div class="mt-4 text-lg sm:mt-0 sm:text-xl lg:text-3xl">Hello World</div>
+    </article>
+    <!-- Be Specific with Breakpoint Classes -->
+    <article>
+      <!-- Incorrect -->
+      <div class="items-center justify-between sm:flex">
+        <div>Hello</div>
+        <div>World</div>
+      </div>
+      <!-- correct -->
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div>Hello</div>
+        <div>World</div>
+      </div>
+    </article>
 </body>
 </html>
