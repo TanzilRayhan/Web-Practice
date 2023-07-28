@@ -86,11 +86,17 @@
       <!-- correct -->
       <button class="bg-red-500 transition-colors hover:bg-red-600">Click</button>
     </article>
+    <!-- Use Color Opacity Classes -->
     <article>
       <!-- Incorrect -->
-
+      <button class="relative">
+        <span class="absolute inset-0 bg-red-500 opacity-50"></span>
+        Click
+      </button>
       <!-- correct -->
-
+      <button class="bg-red-500 bg-opacity-50">Click</button>
+      <!-- With JIT -->
+      <button class="bg-red-500/50">Click</button>
     </article>
     <article>
       <!-- Incorrect -->
