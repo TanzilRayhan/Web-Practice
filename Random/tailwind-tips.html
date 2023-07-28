@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Tricks for Writing Better Tailwind CSS</title>
+</head>
+<body>
+    <!-- Delegate Classes to Parent Element -->
+    <article>
+        <!-- Incorrect -->
+        <ul>
+            <li class="whitespace-nowrap text-sm font-medium">First</li>
+            <li class="whitespace-nowrap text-sm font-medium">Second</li>
+            <li class="whitespace-nowrap text-sm font-medium">Third</li>
+          </ul>
+        <!-- correct -->
+        <ul class="text-sm font-medium">
+            <li class="whitespace-nowrap">First</li>
+            <li class="whitespace-nowrap">Second</li>
+            <li class="whitespace-nowrap">Third</li>
+          </ul>
+    </article>
+</body>
+</html>
