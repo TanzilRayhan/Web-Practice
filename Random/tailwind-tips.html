@@ -64,12 +64,20 @@
         <div class="mt-4">World</div>
       </div>
     </article>
-    
+    <!-- Remove Duplicate Spacing Classes with Parent Classes -->
     <article>
       <!-- Incorrect -->
-
+      <ul>
+        <li>First</li>
+        <li class="mt-8">Second</li>
+        <li class="mt-8">Third</li>
+      </ul>
       <!-- correct -->
-
+      <ul class="space-y-8">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+      </ul>
     </article>
     <article>
       <!-- Incorrect -->
